@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+}
+.mune{
+    position:fixed;
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    width: 100%;
+    top: 0;
+    opacity: 0.8;
+}
+.mune a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    padding: 20px 40px ;
+    font-weight: lighter;
+}
+.mune a:hover{
+    background-color: #ccc;
+    color: black;
+}
+.header{
+    background-color: brown;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    padding: 100px 0;
+    margin-top: 58px;
+}
+.header p {
+    margin: 45px 0;
+}
+
+#adout-company{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: justify;
+}
+#adout-company img {
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius:10px;
+}
+#adout-company h2{
+    text-align: center;
+}
+.header a:hover{
+    background-color: #b1b1b2;
+}
+#team{
+    text-align: center;   
+}
+.member{
+    width:20%;
+    display: inline-block;
+    margin: 20px 10px ;
+    border: 2px solid grey;
+    text-align: left;
+    padding: 20px;
+    min-width: 340px;
+    vertical-align: top;
+}
+.member img{
+    width: 100%;
+}
+.member h3
+{
+    font-weight: 400;
+    font-size: 24px;
+}
+.member .position{
+    opacity: 0.6;
+}
+.member a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #055b73;
+    border-radius: 10px;
+    width: 100%;
+    color:white;
+    padding: 14px 0;
+}
+.fix{
+    color: white;
+    opacity: 100;
+}
+#prices{
+    background-color: #616161;
+    text-align: center;
+    padding:50px 0;
+}
+#prices h2,#prices p {
+    color: white;
+
+}
+.tariff{
+  display:inline-block;
+  width: 30%;
+  min-width: 150px;
+  margin: 10px;
+  vertical-align: middle;
+  background-color: white;
+  padding: 0;  
+}
+.tariff li{
+    list-style-type: none;
+    border:1px solid #dddddd;
+    padding: 16px 0;
+}
+.tariff .tariff-name{
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0;
+}
+.tariff .best{
+    background-color: #055b73;
+    padding: 48px 0;
+}
+.tariff li:last-child{
+    background-color: #f1f1f1;
+    padding: 24px 0;
+}
+.tariff a {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+}.tariff a:hover{
+    background-color: white;
+    color: black;
+}
+.important{
+    font-weight: bold;
+}
+#prices .price{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+#price .period{
+    color: black;
+    opacity: 0.4;
+}
+.period1{
+    color: red;
+}
+#contacts{
+    background-color:  #f1f1f1;
+    text-align: center;
+    padding:  40px 0;
+}
+.contact-info{
+background-repeat: no-repeat;
+background-position:left center ;
+background-size: 18px 18px;
+padding-left: 30px;
+text-align: left;
+margin-left: 5%;
+}
+.contact-addres{
+    background-image: url(address.png);
+}
+.contact-phone{
+    background-image: url(phone.png);
+}
+.contact-mail{background-image: url(mail.png); 
+}
+#contacts input{
+    padding: 8px;
+    width: 90%;
+}
+#contacts button{
+    background:black;
+    color: white;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#contacts button:hover {
+    background-color: white;
+    color: black;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+
+@media(max-width: 575px){
+    .mune{
+        position: inherit;
+        width: 100%;
+        text-align: center;
+    
+    }
+    .mune a{
+        width: auto;
+        padding: 20px 0;
+        display: block;
+        
+    }
+    .header{
+        margin-top: 0;
+        background-size: cover;
+        background-position: center center;
+        min-height: auto;
+        padding: 100px 10px;
+    }
+    #adout-company{
+        width: 86%;
+        margin:10px 5px;
+        float: none;
+    }
+    .member{
+        min-width: 80%;
+    }
+    .tariff{
+        width: 90%;    }
+}
+
